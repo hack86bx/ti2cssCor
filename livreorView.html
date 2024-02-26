@@ -13,6 +13,7 @@
     </header>
     
     <main>
+        <!--operation ternaire qui donne à $succes a ou b, si succes votre message a bien ete valide si non une erreur s'est produite -->
         <?php if(isset($success)): ?>
         <p><?=$success ? "Votre message a bien été enregistré" : "Une erreur s'est produite" ?></p>
         <?php endif; ?>
